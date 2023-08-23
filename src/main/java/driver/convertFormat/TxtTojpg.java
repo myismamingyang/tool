@@ -27,9 +27,6 @@ import javax.imageio.ImageIO;
 
 public class TxtTojpg {
 
-    String inputImagePath = "C:\\Users\\14652\\Desktop\\GitHub.jpg";
-    String outputTXTPath = "C:\\Users\\14652\\Desktop\\GitHub.txt";
-
     public static String fileformat = "png";
     public static String fileNameFormat = "yyyy-MM-dd_HH-mm-ss";
 
