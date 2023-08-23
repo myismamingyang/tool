@@ -15,8 +15,8 @@ import org.apache.commons.logging.LogFactory;
  * @Version: 1.0
  * @Function: 将图片转为txt
  */
-public class JpgTotxt {
-    private static Log log = LogFactory.getLog(JpgTotxt.class);
+public class jpgTotxt {
+    private static Log log = LogFactory.getLog(jpgTotxt.class);
 
     // 根据图片地址将图片转换为字符串类型的数据
     public String jpgTotxt(String inputImagePath) {

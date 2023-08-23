@@ -1,7 +1,5 @@
 package driver.convertFormat;
 
-
-import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
 
@@ -16,7 +14,7 @@ public class driverJpg2Txt {
         String inputImagePath = "C:\\Users\\14652\\Desktop\\testFile\\GitHub.jpg";
         String outputTxtPath = "C:\\Users\\14652\\Desktop\\testFile\\GitHub.txt";
 
-        JpgTotxt jpgTotxt = new JpgTotxt();
+        jpgTotxt jpgTotxt = new jpgTotxt();
         String jpgvalue = jpgTotxt.jpgTotxt(inputImagePath);
         FileWriter fileWriter = new FileWriter(outputTxtPath);
         fileWriter.write(jpgvalue);

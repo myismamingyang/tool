@@ -4,13 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="adafd62c-734b-43de-a90a-0d2f16162ce6" name="Changes" comment="OK &#10;Jpg 2 Txt&#10;Txt 2 Jpg">
-      <change afterPath="$PROJECT_DIR$/src/main/java/driver/convertFormat/driverJpg2Txt.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/driver/convertFormat/driverTxt2Jpg.java" afterDir="false" />
+    <list default="true" id="adafd62c-734b-43de-a90a-0d2f16162ce6" name="Changes" comment="update Out File Name">
+      <change afterPath="$PROJECT_DIR$/src/main/java/driver/convertFormat/test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/driver/convertFormat/TxtTojpg.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/driver/convertFormat/TxtTojpg.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/driver/convertFormat/driverJpgAndTxt.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/driver/convertFormat/driverJpgAndTxt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/driver/convertFormat/JpgTotxt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/driver/convertFormat/jpgTotxt.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/driver/convertFormat/TxtTojpg.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/driver/convertFormat/txtTojpg.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/driver/convertFormat/driverJpg2Txt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/driver/convertFormat/driverJpg2Txt.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/driver/convertFormat/driverTxt2Jpg.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/driver/convertFormat/driverTxt2Jpg.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/driver/convertFormat/TxtTojpg.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/driver/convertFormat/TxtTojpg.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/driver/convertFormat/driverJpg2Txt.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/driver/convertFormat/driverJpg2Txt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/driver/convertFormat/driverTxt2Jpg.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/driver/convertFormat/driverTxt2Jpg.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,8 +100,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="jpgTotxt" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="driver.convertFormat.jpgTotxt" />
+    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="driver.convertFormat.test" />
       <module name="tool" />
       <extension name="coverage">
         <pattern>
@@ -126,10 +129,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.driverTxt2Jpg" />
+        <item itemvalue="Application.test" />
         <item itemvalue="Application.driverJpgAndTxt" />
         <item itemvalue="Application.driverJPG2txt" />
         <item itemvalue="Application.txtTojpg" />
-        <item itemvalue="Application.jpgTotxt" />
       </list>
     </recent_temporary>
   </component>
@@ -142,7 +145,7 @@
       <option name="presentableId" value="Default" />
       <updated>1692752476745</updated>
       <workItem from="1692752478180" duration="14000" />
-      <workItem from="1692752702287" duration="4977000" />
+      <workItem from="1692752702287" duration="6558000" />
     </task>
     <task id="LOCAL-00001" summary="OK &#10;Jpg 2 Txt&#10;Txt 2 Jpg">
       <created>1692763092438</created>
@@ -151,7 +154,21 @@
       <option name="project" value="LOCAL" />
       <updated>1692763092438</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="1.0">
+      <created>1692764111785</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1692764111785</updated>
+    </task>
+    <task id="LOCAL-00003" summary="update Out File Name">
+      <created>1692764287609</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1692764287609</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -170,6 +187,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="OK &#10;Jpg 2 Txt&#10;Txt 2 Jpg" />
-    <option name="LAST_COMMIT_MESSAGE" value="OK &#10;Jpg 2 Txt&#10;Txt 2 Jpg" />
+    <MESSAGE value="1.0" />
+    <MESSAGE value="update Out File Name" />
+    <option name="LAST_COMMIT_MESSAGE" value="update Out File Name" />
   </component>
 </project>

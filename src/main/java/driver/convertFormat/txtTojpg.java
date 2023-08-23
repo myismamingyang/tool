@@ -4,9 +4,6 @@ import java.awt.image.BufferedImage;
 import java.io.ByteArrayInputStream;
 import java.io.File;
 import java.io.IOException;
-import java.text.DateFormat;
-import java.text.SimpleDateFormat;
-import java.util.Date;
 
 import javax.imageio.ImageIO;
 
@@ -16,19 +13,10 @@ import javax.imageio.ImageIO;
  * @Version: 1.0
  * @Function: 将txt文件转为图片
  */
-import java.awt.Color;
-import java.awt.Font;
-import java.awt.FontMetrics;
-import java.awt.Graphics2D;
-import java.awt.image.BufferedImage;
-import java.io.*;
+public class txtTojpg {
 
-import javax.imageio.ImageIO;
-
-public class TxtTojpg {
-
-    public static String fileformat = "png";
-    public static String fileNameFormat = "yyyy-MM-dd_HH-mm-ss";
+    //public static String fileformat = "png";
+    //public static String fileNameFormat = "yyyy-MM-dd_HH-mm-ss";
 
     // 将字符串格式的图片转换为图片并保存
     public void txtTojpg(String string, String saveDir) {
@@ -56,11 +44,14 @@ public class TxtTojpg {
     public  String saveImage(byte[] imgages, final String saveDir) {
         try {
             BufferedImage bis = readImage(imgages);
-            DateFormat sdf = new SimpleDateFormat(fileNameFormat);
-            String fileTime = sdf.format(new Date());
-            final String name = fileTime + "_" + "." + fileformat;
-            File f = new File(saveDir + name);
+//            DateFormat sdf = new SimpleDateFormat(fileNameFormat);
+//            String fileTime = sdf.format(new Date());
+//            final String name = fileTime + "_" + "." + fileformat;
+//            File f = new File(saveDir + name);
+            File f = new File(saveDir);
             boolean istrue = false;
+            String[] split = saveDir.split("\\.");
+            String fileformat = split[1];
             if (f.exists()) {
                 istrue = ImageIO.write(bis, fileformat, f);
             } else {
@@ -68,7 +59,7 @@ public class TxtTojpg {
                 istrue = ImageIO.write(bis, fileformat, f);
             }
             if (istrue) {
-                return name;
+                return f.getName();
             }
         } catch (Exception e) {
         }

@@ -1,6 +1,5 @@
 package driver.convertFormat;
 
-
 import java.io.*;
 
 /**
@@ -11,8 +10,8 @@ import java.io.*;
  */
 public class driverTxt2Jpg {
     public static void main(String[] args) throws IOException {
-        String outputImagePath = "C:\\Users\\14652\\Desktop\\testFile\\GitHub22.jpg";
         String inputTxtPath = "C:\\Users\\14652\\Desktop\\testFile\\GitHub.txt";
+        String outputImagePath = "C:\\Users\\14652\\Desktop\\testFile\\GitHub22.jpg";
 
         try {
             FileReader reader = new FileReader(inputTxtPath);
@@ -29,13 +28,11 @@ public class driverTxt2Jpg {
 
             String fileContent = content.toString();
 
-            TxtTojpg txtTojpg = new TxtTojpg();
+            txtTojpg txtTojpg = new txtTojpg();
             txtTojpg.txtTojpg(fileContent,outputImagePath);
 
         } catch (IOException e) {
             e.printStackTrace();
         }
-
-
     }
 }
