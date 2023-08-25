@@ -136,6 +136,7 @@
       <updated>1692752476745</updated>
       <workItem from="1692752478180" duration="14000" />
       <workItem from="1692752702287" duration="6800000" />
+      <workItem from="1692782563229" duration="512000" />
     </task>
     <task id="LOCAL-00001" summary="OK &#10;Jpg 2 Txt&#10;Txt 2 Jpg">
       <created>1692763092438</created>
@@ -181,6 +182,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="OK &#10;Jpg 2 Txt&#10;Txt 2 Jpg" />
