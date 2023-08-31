@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="adafd62c-734b-43de-a90a-0d2f16162ce6" name="Changes" comment="update Out File Name" />
+    <list default="true" id="adafd62c-734b-43de-a90a-0d2f16162ce6" name="Changes" comment="0" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -136,7 +136,8 @@
       <updated>1692752476745</updated>
       <workItem from="1692752478180" duration="14000" />
       <workItem from="1692752702287" duration="6800000" />
-      <workItem from="1692782563229" duration="512000" />
+      <workItem from="1692782563229" duration="525000" />
+      <workItem from="1694418803522" duration="638000" />
     </task>
     <task id="LOCAL-00001" summary="OK &#10;Jpg 2 Txt&#10;Txt 2 Jpg">
       <created>1692763092438</created>
@@ -166,7 +167,14 @@
       <option name="project" value="LOCAL" />
       <updated>1692768464314</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="0">
+      <created>1692955110407</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1692955110407</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -189,6 +197,7 @@
     <MESSAGE value="1.0" />
     <MESSAGE value="format-2.0" />
     <MESSAGE value="update Out File Name" />
-    <option name="LAST_COMMIT_MESSAGE" value="update Out File Name" />
+    <MESSAGE value="0" />
+    <option name="LAST_COMMIT_MESSAGE" value="0" />
   </component>
 </project>
