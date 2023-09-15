@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="adafd62c-734b-43de-a90a-0d2f16162ce6" name="Changes" comment="Excel TO Txt" />
+    <list default="true" id="adafd62c-734b-43de-a90a-0d2f16162ce6" name="Changes" comment="Excel TO Txt">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/driver/Excel/excelToTxt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/driver/Excel/excelToTxt.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -147,6 +150,7 @@
       <workItem from="1692782563229" duration="525000" />
       <workItem from="1694418803522" duration="657000" />
       <workItem from="1694679619236" duration="1916000" />
+      <workItem from="1694740327290" duration="623000" />
     </task>
     <task id="LOCAL-00001" summary="OK &#10;Jpg 2 Txt&#10;Txt 2 Jpg">
       <created>1692763092438</created>
