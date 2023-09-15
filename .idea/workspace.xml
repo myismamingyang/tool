@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="adafd62c-734b-43de-a90a-0d2f16162ce6" name="Changes" comment="Excel TO Txt">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="adafd62c-734b-43de-a90a-0d2f16162ce6" name="Changes" comment="Excel TO Txt  +  for">
       <change beforePath="$PROJECT_DIR$/src/main/java/driver/Excel/excelToTxt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/driver/Excel/excelToTxt.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -150,7 +149,7 @@
       <workItem from="1692782563229" duration="525000" />
       <workItem from="1694418803522" duration="657000" />
       <workItem from="1694679619236" duration="1916000" />
-      <workItem from="1694740327290" duration="623000" />
+      <workItem from="1694740327290" duration="699000" />
     </task>
     <task id="LOCAL-00001" summary="OK &#10;Jpg 2 Txt&#10;Txt 2 Jpg">
       <created>1692763092438</created>
@@ -208,7 +207,14 @@
       <option name="project" value="LOCAL" />
       <updated>1694683593010</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Excel TO Txt  +  for">
+      <created>1694740977685</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1694740977685</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -234,6 +240,7 @@
     <MESSAGE value="0" />
     <MESSAGE value="Update workspace.xml" />
     <MESSAGE value="Excel TO Txt" />
-    <option name="LAST_COMMIT_MESSAGE" value="Excel TO Txt" />
+    <MESSAGE value="Excel TO Txt  +  for" />
+    <option name="LAST_COMMIT_MESSAGE" value="Excel TO Txt  +  for" />
   </component>
 </project>

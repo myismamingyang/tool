@@ -14,11 +14,11 @@ import java.io.*;
 public class excelToTxt {
     public static void main(String[] args) {
         try {
-            // 打开Excel文件
+            // 打开 Excel文件
             FileInputStream fileInputStream = new FileInputStream("E:\\opt\\zTestFilePath\\excelToTxt\\excel.xlsx");
             // 创建工作簿对象
             Workbook workbook = new XSSFWorkbook(fileInputStream);
-
+            //遍历 Excel 中 Sheet页
             for (int i = 0; i < workbook.getNumberOfSheets(); i++) {
                 // 获取第一个工作表（你可以根据需要进行更改）
                 Sheet sheet = workbook.getSheetAt(i);
@@ -27,7 +27,7 @@ public class excelToTxt {
                 FileOutputStream fileOutputStream = new FileOutputStream(txtFile);
                 OutputStreamWriter outputStreamWriter = new OutputStreamWriter(fileOutputStream, "UTF-8");
                 BufferedWriter bufferedWriter = new BufferedWriter(outputStreamWriter);
-                // 遍历Excel文件的每一行和单元格，并写入文本文件
+                // 遍历 Excel文件的每一行和单元格，并写入文本文件
                 for (Row row : sheet) {
                     for (Cell cell : row) {
                         String cellValue = "";
