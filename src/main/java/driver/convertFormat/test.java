@@ -12,9 +12,7 @@ public class test {
         String[] split = outputImagePath.split("\\.",2);
 
         for (int i = 0; i < split.length; i++) {
-            System.out.println(i);
-            System.out.println(split.length);
-            System.out.println(split[i]);
+            System.out.println("分割后的位数: " + i +  " , 分割后的数据长度: " + split.length + " , 分割后的数据: " + split[i]);
         }
     }
 }

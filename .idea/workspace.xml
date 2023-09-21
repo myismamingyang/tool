@@ -4,8 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="adafd62c-734b-43de-a90a-0d2f16162ce6" name="Changes" comment="Excel TO Txt  +  for">
-      <change beforePath="$PROJECT_DIR$/src/main/java/driver/Excel/excelToTxt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/driver/Excel/excelToTxt.java" afterDir="false" />
+    <list default="true" id="adafd62c-734b-43de-a90a-0d2f16162ce6" name="Changes" comment="//">
+      <change afterPath="$PROJECT_DIR$/src/main/java/driver/convertFormat/base64/transBase64ToStream.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/driver/convertFormat/base64/transStreamToBase64.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/driver/convertFormat/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/driver/convertFormat/test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/driver/convertFormat/test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/driver/convertFormat/test.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,46 +64,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
-  <component name="RunManager" selected="Application.excelToTxt">
-    <configuration name="driverJPG2txt" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="driver.convertFormat.driverJPG2txt" />
-      <module name="tool" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="driver.convertFormat.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="driverJpgAndTxt" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="driver.convertFormat.driverJpgAndTxt" />
-      <module name="tool" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="driver.convertFormat.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="driverTxt2Jpg" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="driver.convertFormat.driverTxt2Jpg" />
-      <module name="tool" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="driver.convertFormat.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.transBase64ToStream">
     <configuration name="excelToTxt" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="driver.Excel.excelToTxt" />
       <module name="tool" />
@@ -126,13 +91,52 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="transBase64ToStream" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="driver.convertFormat.base64.transBase64ToStream" />
+      <module name="tool" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="driver.convertFormat.base64.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="transStreamToBase64" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="driver.convertFormat.base64.transStreamToBase64" />
+      <module name="tool" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="driver.convertFormat.base64.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="transToBase64" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="driver.convertFormat.base64.transToBase64" />
+      <module name="tool" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="driver.convertFormat.base64.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.excelToTxt" />
-        <item itemvalue="Application.driverTxt2Jpg" />
+        <item itemvalue="Application.transBase64ToStream" />
+        <item itemvalue="Application.transStreamToBase64" />
+        <item itemvalue="Application.transToBase64" />
         <item itemvalue="Application.test" />
-        <item itemvalue="Application.driverJpgAndTxt" />
-        <item itemvalue="Application.driverJPG2txt" />
+        <item itemvalue="Application.excelToTxt" />
       </list>
     </recent_temporary>
   </component>
@@ -149,7 +153,8 @@
       <workItem from="1692782563229" duration="525000" />
       <workItem from="1694418803522" duration="657000" />
       <workItem from="1694679619236" duration="1916000" />
-      <workItem from="1694740327290" duration="699000" />
+      <workItem from="1694740327290" duration="1718000" />
+      <workItem from="1697354792617" duration="4937000" />
     </task>
     <task id="LOCAL-00001" summary="OK &#10;Jpg 2 Txt&#10;Txt 2 Jpg">
       <created>1692763092438</created>
@@ -214,7 +219,14 @@
       <option name="project" value="LOCAL" />
       <updated>1694740977685</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="//">
+      <created>1694741058595</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1694741058595</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -241,6 +253,7 @@
     <MESSAGE value="Update workspace.xml" />
     <MESSAGE value="Excel TO Txt" />
     <MESSAGE value="Excel TO Txt  +  for" />
-    <option name="LAST_COMMIT_MESSAGE" value="Excel TO Txt  +  for" />
+    <MESSAGE value="//" />
+    <option name="LAST_COMMIT_MESSAGE" value="//" />
   </component>
 </project>
